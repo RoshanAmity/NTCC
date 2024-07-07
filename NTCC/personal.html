@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="personal.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a>Photo <span>Gallery</span></a>
+                </div>
+                <div class="item">
+                    <div class="list">
+                        <ul>
+                            <li><a id="Home" href="index.html">Home</a></li>
+                            <li><a id="Animal" href="animal.html">Animal</a></li>
+                            <li><a id="Bird" href="bird.html">Bird</a></li>
+                            <li><a id="Place" href="place.html">Place</a></li>
+                            <li><a id="Personal" href="#personal.html">Personal</a></li>
+                        </ul>
+                    </div>
+                    <div class="mode">
+                        <input type="checkbox" checked="check" id="check">
+                        <img id="sun" src="sun.png" alt="Light Mode">
+                        <img id="moon" src="moon.png" alt="Dark Mode">
+                    </div>
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="Main">
+            <input type="file" id="photoInput" accept="image/*" multiple>
+            <div class="combine">
+                <div id="imageContainer"></div>
+                <img src="plus.png" id="addButton" alt="Add Pic">
+            </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2024 Photo Gallery. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="personal.js"></script>
+</body>
+</html>
